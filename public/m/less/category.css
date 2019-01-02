@@ -1,0 +1,134 @@
+img {
+  vertical-align: middle;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #666;
+}
+body {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: .14rem;
+  line-height: .14rem;
+}
+body {
+  padding: .45rem 0;
+  height: 100vh;
+}
+main {
+  position: relative;
+  height: 100%;
+}
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #006699;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+  line-height: .45rem;
+  color: #fff;
+}
+#header .center {
+  flex: 1;
+  margin: 0;
+  line-height: .45rem;
+  color: #fff;
+}
+#header .center input {
+  color: black;
+  margin-bottom: 0px;
+  text-align: left;
+  background-color: #fff;
+  font-size: .14rem;
+}
+#header .right {
+  width: .45rem;
+  height: .45rem;
+  line-height: .45rem;
+  color: #fff;
+}
+#footer {
+  background-color: #006699;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: .45rem;
+  z-index: 999;
+}
+#footer a {
+  height: .45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#footer a span {
+  line-height: .14rem;
+}
+#footer a.active {
+  color: orange;
+}
+#main {
+  display: flex;
+  background-color: #ccc;
+}
+#main .category-left {
+  width: 80px;
+  position: relative;
+  height: 100%;
+}
+#main .category-left .mui-scroll {
+  min-height: 100.5%;
+}
+#main .category-left .mui-scroll ul li {
+  background-color: #fff;
+}
+#main .category-left .mui-scroll ul li a {
+  display: block;
+  height: .45rem;
+  line-height: .45rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+#main .category-left .mui-scroll ul li a:active {
+  color: #ccc;
+}
+#main .category-left .mui-scroll ul li a p {
+  line-height: .21rem;
+}
+#main .category-left .mui-scroll ul li.active a {
+  background-color: #ccc;
+}
+#main .category-right {
+  height: 100%;
+  flex: 1;
+  position: relative;
+}
+#main .category-right .mui-scroll {
+  padding: .1rem;
+  min-height: 100.5%;
+}
+#main .category-right .mui-scroll .mui-row a {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+}
+#main .category-right .mui-scroll .mui-row a img {
+  width: 100%;
+}
